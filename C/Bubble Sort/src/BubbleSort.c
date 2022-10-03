@@ -2,12 +2,11 @@
 #include <stdlib.h>
 #include <time.h>
 #include "../include/BubbleSort.h"
-#include "BubbleSort_f.c"
 
 int main() {
     int size = 0;
     time_t start, end;
-
+    Info();
     printf("Введите размерность массива (больше 0): ");
     
     if (scanf("%d", &size) || size > 0) {

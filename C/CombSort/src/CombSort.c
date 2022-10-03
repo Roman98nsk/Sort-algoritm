@@ -1,12 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-#include "../include/ShakerSort.h"
+#include "../include/CombSort.h"
 
 int main() {
     Info();
     Input();
-    Shaker();
+    Comb();
     Output();
-    return 0;
 }

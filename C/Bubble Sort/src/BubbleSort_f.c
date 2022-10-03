@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <time.h>
 
+void Info() {
+    printf("Сортировка пузырьком.\nНе применяется на практике.\nСреднее время выполнения О(n^2). Затраты памяти О(1).");
+}
+
 void Input(int size, int x[]) {
     srand(time(NULL));
     printf("Изначальный массив: ");
